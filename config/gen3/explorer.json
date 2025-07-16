@@ -26,12 +26,7 @@
         {
           "title": "Subjects",
           "fields": [
-            "study",
-            "gender",
-            "race",
-            "ethnicity",
-            "vital_status",
-            "submitter_id"
+            "baseline_year"
           ],
           "fieldsConfig": {
             "gender" : {
