@@ -48,10 +48,8 @@
         "limit": 10000
       },
       "fields": [
-        "project",
-        "gender",
-        "race",
-        "ethnicity"
+        "project_id",
+        "baseline_year"
       ],
       "columns": {
         "project": {
