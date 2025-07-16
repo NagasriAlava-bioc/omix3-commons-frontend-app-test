@@ -2,17 +2,9 @@
   {
     "tabTitle": "Cases",
     "charts": {
-      "race": {
+      "baseline_year": {
         "chartType": "fullPie",
-        "title": "Race"
-      },
-      "ethnicity": {
-        "chartType": "horizontalStacked",
-        "title": "Ethnicity"
-      },
-      "gender": {
-        "chartType": "bar",
-        "title": "Gender"
+        "title": "baseline_year"
       }
     },
     "filters": {
@@ -20,19 +12,13 @@
         {
           "title": "Study Selection",
           "fields": [
-            "project",
             "project_id"
           ]
         },
         {
           "title": "Subjects",
           "fields": [
-            "study",
-            "gender",
-            "race",
-            "ethnicity",
-            "vital_status",
-            "submitter_id"
+            "baseline_year"
           ],
           "fieldsConfig": {
             "gender" : {
@@ -54,10 +40,8 @@
         "limit": 10000
       },
       "fields": [
-        "project",
-        "gender",
-        "race",
-        "ethnicity"
+        "project_id",
+        "baseline_year"
       ],
       "columns": {
         "project": {
