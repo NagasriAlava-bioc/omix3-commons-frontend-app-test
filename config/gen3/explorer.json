@@ -20,7 +20,6 @@
         {
           "title": "Study Selection",
           "fields": [
-            "project",
             "project_id"
           ]
         },
