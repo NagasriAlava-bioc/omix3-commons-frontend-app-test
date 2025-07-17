@@ -33,7 +33,10 @@
           {
             "image": {
               "src": "https://omix3-gen3-assets.biocommons.org.au/images/landingpage.jpeg",
-              "alt": "Gen3 Data Platform"
+              "alt": "Gen3 Data Platform",
+              "width": 600,
+              "height": 400,
+              "unoptimized": true
             }
           }
         ]
