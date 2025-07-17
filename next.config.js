@@ -23,6 +23,9 @@ const nextConfig = {
   pageExtensions: ['mdx', 'md', 'jsx', 'js', 'tsx', 'ts'],
   basePath: process.env.BASE_PATH || '',
   transpilePackages: ['@gen3/core', '@gen3/frontend'],
+  images: {
+    domains: ['omix3-gen3-assets.biocommons.org.au'], 
+  },
   webpack: (config) => {
     config.infrastructureLogging = {
       level: 'error',
