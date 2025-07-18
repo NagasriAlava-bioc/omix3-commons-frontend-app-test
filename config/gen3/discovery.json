@@ -2,8 +2,8 @@
   "metadataConfig": [
     {
       "tableConfig": {
-        "selectableRows": true,
-        "expandableRows": true
+        "selectableRows": false,
+        "expandableRows": false
       },
       "features": {
         "advSearchFilters": {
